@@ -1,0 +1,85 @@
+<html>  
+    <head>  
+        <title>Formulario de Tomas</title>
+    </head> 
+    <body bgcolor="95a8bb"> 
+        <h1>Elementos del Formulario</h1>
+        <form action="mailto:a20335@imcori.edu.mx">
+        <table> 
+            <TR>    
+                <td>Nombre del Alumno(a):</td>
+                <td><input name="alumno" type="text" size="45"></td>
+            </TR>
+            <TR>    
+                <td>Años cumplidos:</td>
+                <td><input name="edad" type="text" size="10" maxlength="2"></td>
+            </TR>
+            <TR>    
+                <td>Semestre:</td>
+                <td><input name="sem" type="radio">Segundo <br>
+                    <input name="sem" type="radio">Cuarto <br>
+                    <input name="sem" type="radio">Sexto
+                </td>
+            </TR>
+            <TR>    
+                <td>Grupo:</td>
+                <td><input name="gpo" type="radio" checked>A <br>
+                    <input name="gpo" type="radio">B
+                </td>
+            </TR>
+            <TR>    
+                <td>Área Propedéutica:</td>
+                <td><select name="area" id="area1">
+                    <option>Tronco Común</option>
+                    <option>Humanidades-Ciencias Sociales</option>
+                    <option selected>Económico-Administrativo</option>
+                    <option>Químico-Biológica</option>
+                    <option>Físico-Matemática</option>
+                </td>
+            </TR>
+            <TR>    
+                <td>Pasatiempos:</td>
+                <td><input name="div" type="checkbox">Ver TV <br>
+                    <input name="div" type="checkbox">Entrenar<br>
+                    <input name="div" type="checkbox">Dormir<br>
+                    <input name="div" type="checkbox" checked>Jugar Videojuegos<br>
+                </td>
+            </TR>
+            <TR>    
+                <td>Palabra Secreta:</td>
+                <td><input name="pass" type="password">
+                </td>
+            </TR>
+             <TR>    
+                <td>Comentarios:</td>
+                <td><textarea name="Comentarios"></textarea>
+                </td>
+            </TR>
+            <TR>
+                <td><input name="borrar" type="reset">
+                </td>
+                <td><input name="enviar" type="submit">
+                </td>
+            </TR>
+        </table>
+        <center><input name="boton" type="button" value="DA CLIC"></center>
+        </form>
+        <H2>Incrustando objetos de las P&aacute;ginas Web</H2>
+        <center>
+            <embed src="pantalla.mp4" width="800" height="500">
+        </center>
+        <H2>Visualizador de Documentos</H2>
+        <center>
+            <object type="application/pdf" data="html.pdf" style="width: 600px;" height="800px">
+                ERROR (No Puede Mostrarse el Objeto)
+                </object>
+        </center>
+        <H2>Visualizador de Videos Externo</h2>
+             <center>
+            <OBJECT>
+                <object type="application/x-shockwave-flash" data="https://www.youtube.com/watch?v=iEe_eraFWWs&list=RDiEe_eraFWWs&start_radio=1" style="width: 600px;" height="800px"></object>
+                ERROR ( NO Puede Mostrarse el Video)
+            </OBJECT>
+        </center>
+    </body>
+</html>
